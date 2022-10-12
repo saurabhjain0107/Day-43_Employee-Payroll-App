@@ -49,7 +49,7 @@ const createInnerHtml=() => {
       }
       document.querySelector('#table-display').innerHTML = innerHtml;
     }
-    
+
     const createEmployeePayrollJSON = () => {
         let employeePayrollListLocal = [
             {
@@ -74,6 +74,7 @@ const createInnerHtml=() => {
           ]
           return employeePayrollListLocal;
         };
+        
         const getDeptHtml = (deptList) => {
             if (deptList == undefined) {
               console.log("deptList is empty");
