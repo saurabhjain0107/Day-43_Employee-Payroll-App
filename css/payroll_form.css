@@ -160,6 +160,7 @@ select {
     text-decoration: none; 
     text-align: center; 
 } 
+
 error-output {
     margin-left: 10px;
     font-size: 15px;
