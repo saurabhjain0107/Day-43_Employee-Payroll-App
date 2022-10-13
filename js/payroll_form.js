@@ -5,7 +5,8 @@ class EmployeePayrollData{
 			this._name=name;
 		else {
 			throw "Name is Incorrect";
-		}   
+		}
+        
     }
     get name(){
         return this._name;
@@ -81,8 +82,10 @@ class EmployeePayrollData{
         )
     }
 }
+
 let isUpdate = false;
 let employeePayrollObj = new EmployeePayrollData();
+
 window.addEventListener('DOMContentLoaded', (event) => {
     validateName();
     validateStartDate();
@@ -134,6 +137,7 @@ function createNewEmpId(){
     localStorage.setItem("EmployeeID", empID);
     return empID;
 }
+
 function createAndUpdateStorage(){
     let employeePayrollDataList = JSON.parse(localStorage.getItem("employeePayrollDataList"));
     if (employeePayrollDataList != undefined) {
@@ -229,6 +233,7 @@ const updateSalaryRangeValue = () => {
         output.textContent = salary.value;
     });
 }
+
 const validateStartDate = () => {
     let currentDate;
     let startDate;
