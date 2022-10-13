@@ -53,25 +53,25 @@ const createInnerHtml=() => {
 
 const createEmployeePayrollJSON = () => {
   let employeePayrollListLocal = [
-    {
-      _name: 'Sagar',
-      _gender: 'male',
-      _department: ['HR', 'Finance'],
-      _salary: '500000',
-      _startDate: 2022-01-01,
-      _note: '',
-      _id: new Date().getTime(),
-      _profilePic: '../assets/profile-images/Ellipse -2.png'
-    },{
-      _name: 'Ranjit',
-      _gender: 'male',
-      _department: ['HR', 'Finance'],
-      _salary: '400000',
-      _startDate: 2022-05-02,
-      _note: '',
-      _id: new Date().getTime(),
-      _profilePic: '../assets/profile-images/Ellipse -3.png'
-    }
+     {
+       _name: 'Saurabh',
+       _gender: 'male',
+       _department: ['HR', 'Finance'],
+       _salary: '400000',
+       _startDate: 2022-02-07,
+       _note: '',
+       _id: new Date().getTime(),
+       _profilePic: '../assets/profile-images/Ellipse -2.png'
+        },{
+          _name: 'Rohit',
+          _gender: 'male',
+          _department: ['HR', 'Finance'],
+          _salary: '500000',
+          _startDate: 2022-03-01,
+          _note: '',
+          _id: new Date().getTime(),
+     _profilePic: '../assets/profile-images/Ellipse -3.png'
+   }
   ]
   return employeePayrollListLocal;
 };
